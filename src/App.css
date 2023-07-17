@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+body{
+  /* width:100vw; */
+  /* height:100vh; */
+}
+main{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:100vw;
+  height:100vh;
+}
+.theme{
+  display:flex;
+  width:50%;
+  justify-content: space-between;
+}
+.themeBox{
+  display:flex;
+  border:2px solid red;
+  align-items:center;
+  gap:2rem;
+  cursor:pointer;
+  /* width:100%; */
+}
+
+.dark{
+  background-color: #141d2f;
+  color:white;
+}
+.light{
+   background-color: #f6f8ff;
+}
+
